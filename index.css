@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #0076f1;
+}
+
+.navbar {
+    background: #227302;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+/* Reset some default styles */
+body {
+    padding: 0;
+    margin: 0;
+    background: #f0f7f4; /* Light green background */
+}
+
+/* Navbar styles */
+.navbar {
+    background: #3498db; /* Blue navbar background */
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #f0f7f4; /* Light green text on hover */
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* Input group styles */
+.input-group {
+    position: relative;
+    top: 30px;
+}
+
+/* Header styles */
+.header {
+    background-color: #3498db; /* Blue header background */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Button styles */
+.btn {
+    position: relative;
+    right: 10px;
+}
+
+/* Main container styles */
+#mainContainer {
+    padding-top: 60px;
+    position: relative;
+}
+
+/* Form-related styles */
+#FormDisclaimer {
+    color: #3498db; /* Blue text for disclaimer */
+}
+
+#formSubmit {
+    background-color: #3498db; /* Blue background for submit button */
+    color: #fff; /* White text on submit button */
+}
+
+#FormEmailLabel {
+    color: #3498db; /* Blue text for email label */
+}
+
+#FormPasswordLabel {
+    color: #3498db; /* Blue text for password label */
+}
+
+#app-search-card {
+    margin-top: 20px; /* Adjust the value as needed */
+}
+
+#searchAppsTitle {
+  text-align: center;
+}

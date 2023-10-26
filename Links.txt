@@ -1,0 +1,12 @@
+Important Links
+
+To Connect to PHPmyAdmin
+1. Connect to MU-VPN
+2. Go to : http://cit-mysql.regionals.miamioh.edu/phpmyadmin/index.php
+
+To get into hosting
+ssh beerelbs@ceclnx01.cec.miamioh.edu
+Go to cse 201 folder
+
+To go to the website
+https://ceclnx01.cec.miamioh.edu/~beerelbs/cse201/
