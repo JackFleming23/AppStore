@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse" id="main-navigation">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <button type="button" class="btn btn-light" id="signin-button" onclick="window.location.href='signin.html';">Sign In</button>
@@ -37,30 +37,36 @@
         <!-- Sign-up form -->
         <div class="card mx-auto" id="signupCard">
             <div class="card-body">
-                <form>
-                    <div class="mb-3">
-                        <label for="FirstName" class="form-label" id="FormFirstNameLabel">First Name</label>
-                        <input type="text" class="form-control" id="FirstName" aria-describedby="FirstNameHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label for="LastName" class "form-label" id="FormLastNameLabel">Last Name</label>
-                        <input type="text" class="form-control" id="LastName" aria-describedby="LastNameHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label for="InputEmail2" class="form-label" id="FormEmailLabel">Email address</label>
-                        <input type="email" class="form-control" id="InputEmail2" aria-describedby="emailHelp">
-                        <div class="form-text" id="FormDisclaimer">We'll never share your email with anyone else.</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="Password" class="form-label" id="FormPasswordLabel">Password</label>
-                        <input type="password" class="form-control" id="Password">
-                    </div>
-                    <div class="mb-3">
-                        <label for="ConfirmPassword" class="form-label" id="FormConfirmPasswordLabel">Confirm Password</label>
-                        <input type="password" class="form-control" id="ConfirmPassword">
-                    </div>
-                    <button type="submit" class="btn btn-primary" id="signupSubmit">Sign Up</button>
-                </form>
+              <!-- Sign-up form -->
+<form action="signup.php" method="post" enctype="application/x-www-form-urlencoded">
+  <div class="mb-3">
+      <label for="FirstName" class="form-label">First Name</label>
+      <input type="text" class="form-control" id="FirstName" name="FirstName" aria-describedby="FirstNameHelp">
+  </div>
+  <div class="mb-3">
+      <label for="LastName" class="form-label" id="FormLastNameLabel">Last Name</label>
+      <input type="text" class="form-control" id="LastName" name="LastName" aria-describedby="LastNameHelp">
+  </div>
+  <div class="mb-3">
+      <label for="InputEmail2" class="form-label" id="FormEmailLabel">Email address</label>
+      <input type="email" class="form-control" id="InputEmail" name="InputEmail" aria-describedby="emailHelp">
+      <div class="form-text" id="FormDisclaimer">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+      <label for="Username" class="form-label" id="FormUsernameLabel">Username</label>
+      <input type="text" class="form-control" id="username" name="username">
+  </div>
+  <div class="mb-3">
+      <label for="Password" class="form-label" id="FormPasswordLabel">Password</label>
+      <input type="password" class="form-control" id="Password" name="Password">
+  </div>
+  <div class="mb-3">
+      <label for="ConfirmPassword" class="form-label" id="FormConfirmPasswordLabel">Confirm Password</label>
+      <input type="password" class="form-control" id="ConfirmPassword" name="ConfirmPassword">
+  </div>
+  <button type="submit" class="btn btn-primary" id="signupSubmit">Sign Up</button>
+</form>
+
             </div>
         </div>
     </header>
