@@ -1,0 +1,21 @@
+App Oasis User Manual:
+
+Home Page: When you first load App Oasis you will be taken to the home page with a search bar and the category of Apps that are provided by App Oasis. In the top right of the home page the options to sign in and sign up are available in the form of a button.
+
+Sign Up: Once you click on the sign up  button from the home page the site will reroute you to the signup page where you will enter your information into the required fields and hit the signup button. This will then reroute you back to the home page with your account now signed up and signed in. Now you have the option to logout from the home page using the button in the top right. 
+
+Search Bar: On the home page along with the browsable apps there is a search bar to quicken your search. In order to find a specific app type in the search bar the app name or part of the app name then hit the search button. This will cause only relevant apps to appear based on what was typed in the search bar. 
+
+App Information: When searching for apps you will be able to have most information about the app while on the home page but in order to get more information click on the app name that is in blue with an underline to reroute you to a page with the information about the app along with the comment sections for this app.
+
+Comment section: After going on the app information page you will now be able to leave and read comments. You are able to do this by once logged in typing out your comment in the comment box under the add a comment section then pressing the blue add comment button making it viewable to all who look there. In this section you are able to see the comments of others with their username and the date that the comment was published.  
+
+Admin Account: this account privilege gives special abilities that other accounts cannot perform. With this status a user is able to make a request for an app, manage apps and requests, and also manage users. They also have the ability to delete comments in the app information page. 
+
+Request An App: This feature that only shows up for admins allows for you to once in the home page click on the request an app button which will reroute you to the page to request an app. Once all information is entered click the blue submit button to allow for the app to be put into consideration. 
+
+Manage apps and requests: this is a button within the manage users page for admins that allows for admins to approve or deny any app request that has been made. Admins also have the ability to delete existing apps if they see the need to.
+
+Manage Users: The last admin ability is being able to delete users as well as promote users within the manage users tab under the manage account section.
+
+
